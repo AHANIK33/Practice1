@@ -1,0 +1,25 @@
+n = int(input())
+inp = input()
+num = inp.split()
+
+pos=0
+negitive=0
+odd=0
+eve=0
+for i in range(n):
+    x = int(num[i])
+
+    if x > 0:
+        pos = pos + 1
+    elif x < 0:
+        negitive = negitive + 1
+    if x % 2 != 0:
+        odd = odd + 1
+    else:
+        eve = eve + 1
+    
+
+print("Positive:",pos)
+print("Even:",eve)
+print("Odd:",odd)
+print("Negitive:",negitive)
