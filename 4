@@ -1,0 +1,21 @@
+inp = input()
+num = inp.split()
+
+x = int(num[0])
+y = int(num[1])
+z = int(num[2])
+
+max = x
+min = x
+
+if min > y:
+    min = y
+if min > z:
+    min = z
+if y > max:
+    max = y
+if z > max:
+    max = z
+
+
+print(min,max)
