@@ -1,0 +1,65 @@
+#Dict declare
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+print(dict)
+#Access dict
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+print("model")
+print(dict.keys())
+print(dict.values())
+x = dict["color"] = "blue"
+print(dict)
+#change items
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+x = dict["year"]=1803
+print(dict)
+#remove item
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+x = dict.pop("model")
+print(dict)
+#loop in dict
+dict = {"model =":"ford",
+    "speed =":120,
+    "year =":1800}
+for x in dict:
+    print(x)
+for x in dict:
+    print(dict[x])
+for x,y in dict.items():
+    print(x,y)
+#copy dict
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+mydict=dict.copy()
+print(mydict)
+#nested dict
+company = { 
+    "fb":{
+        "AI":"meta AI",
+        "image":"yes"},
+    "Amazon":{
+        "website":"amazon prime",
+        "for":"movie"},
+    "google":{
+        "AI":"google AI",
+        "image":"yes"}
+    }
+print(company)
+#fromkeys method
+x = {"key1","key2","key3"}
+y=0
+dict=dict.fromkeys(x,y)
+print(dict)
+#get method
+dict = {"model":"ford",
+    "speed":120,
+    "year":1800}
+print(dict.get("model"))
