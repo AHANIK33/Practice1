@@ -1,0 +1,58 @@
+#String slicing(var[start:end:step])
+b = "Hello, World"
+print(b[2:5:2])
+#string upper,lower
+b = "Hello, World"
+print(b.upper())
+print(b.lower())
+#String concatetion
+a="Hello"
+b="World"
+c=a+" "+b
+print(c)
+#string formatting
+a = 36
+txt = f"Her age is {a}"
+print(txt)
+#Escape character
+txt = "they are so-called \"vikings\".Be ready."
+print(txt)
+# String capitalize
+a = "hello world"
+print(a.capitalize())
+#String center
+a = "Hi"
+print(a.center(30))
+#String count
+a = "I love green apple.Green apple is my favourite"
+print(a.count("apple"))
+#String find
+a =  "I love green apple.Green apple is my favourite"
+print(a.find("apple"))
+#String rfind
+a = "I love green apple.Green apple is my favourite"
+print(a.rfind("apple"))
+#String format
+txt = "It is only {price:.2f}$."
+print(txt.format(price=30))
+#String index
+txt = "I love green apple.Green apple is my favourite"
+print(txt.index("apple"))
+#String join
+a = {"john","jack"}
+print(" ".join(a))
+#String partition
+txt = "I love banana and you"
+print(txt.partition("banana"))
+#String replace
+txt = "I like bananas"
+a=txt.replace("bananas","Green apple")
+print(a)
+#String split
+txt = "what is this?"
+print(txt.split())
+#String title
+txt = "hi everyone"
+txtt = txt.title()
+txttt = txtt.center(30)
+print(txttt)
